@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Academy.TestComponents.Listeners02"/>
+    <listener class-name="Academy.TestComponents.TestRetryAnalyzerListener"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Wrong Credentials Login Test(failed)">
+    <classes>
+      <class name="Academy.Tricentis.LoginNegative04">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="loginWrongCredentials" invocation-numbers="4"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- Academy.Tricentis.LoginNegative04 -->
+    </classes>
+  </test> <!-- Wrong Credentials Login Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

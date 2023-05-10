@@ -1,0 +1,46 @@
+[
+{
+	"emailJson" : "unknownxjk@gmail.com",
+	"passwordJson" : "wrongPassword",
+	"errorMessageJson" : "The credentials provided are incorrect"
+	
+
+},
+{
+	"emailJson" : "wrongEmail@gmail.com",
+	"passwordJson" : "kojikurac123",
+	"errorMessageJson" : "No customer account found"
+	
+
+},
+{
+	"emailJson" : "unknownxjk@gmail.com",
+	"passwordJson" : "",
+	"errorMessageJson" : "The credentials provided are incorrect"
+	
+
+},
+{
+	"emailJson" : "",
+	"passwordJson" : "kojikurac123",
+	"errorMessageJson" : "No customer account found"
+	
+
+},
+{
+	"emailJson" : "wrongEmail@gmail.com",
+	"passwordJson" : "wrongPassword",
+	"errorMessageJson" : "No customer account found!!!"
+	
+
+},
+{
+	"emailJson" : "",
+	"passwordJson" : "",
+	"errorMessageJson" : "No customer account found"
+	
+
+}
+
+
+]
